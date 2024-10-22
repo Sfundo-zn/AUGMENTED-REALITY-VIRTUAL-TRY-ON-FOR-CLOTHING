@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Comment</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" type="image/webp" href="fav.webp">
+<meta name="viewport" content="withdth=devices-width, initial-scale=1">
+
+</head>
+<body style="background-color:rgb(201,156,236);">
+
+<div class="comment-box">
+ <h2>Feedback</h2>
+<form action="#">
+   <input type="text=" name="full-name" placeholder="Full Name...">
+   <input type=" name="email" placeholder="Email Address...">
+   <textarea name="comments" placeholder="Type your feedback..."></textarea>
+<button type="submit"><span></span>submit</button>
+</form>
+</div>
+
+<div id="sideNav">
+<nav>
+<ul>
+<li><a href="file:///C:/Users/DELL/Desktop/augmented%20reality%20virtual%20try-on%20for%20clothing/maincodeza.html"><img src="home.png">HOME</a></li>
+<li><a href="file:///C:/Users/DELL/Desktop/augmented%20reality%20virtual%20try-on%20for%20clothing/feature.html"><img src="featured.png">FEATURES</a></li>
+<li><a href="#"><img src="settings.png">SERVICES</a></li>
+<li><a href="file:///C:/Users/DELL/Desktop/augmented%20reality%20virtual%20try-on%20for%20clothing/feedback.html?full-name=&comments=#"><img src="rate.png">FEEDBACK</a></li>
+<li><a href="https://search.yahoo.com/search?fr=mcafee&type=E210US91105G0&p=301+Griffiths+Mxenge+Highway%2C+Umlazi%2C+Durban%2C+4066%2C+South+Africa&guccounter=1"><img src="keep.png">MEET US</a></li>
+</ul>
+</nav>
+</div>
+
+<div id="menuBtn">
+<img src="nav.jpeg" id="menu">
+</div> 
+</section>
+
+<script>
+var menuBtn=document.getElementById("menuBtn")
+var sideNav=document.getElementById("sideNav")
+var menu=document.getElementById("menu")
+
+menuBtn.onclick=function(){
+if(sideNav.style.right=="-250px"){
+   sideNav.style.right="0";
+   menu.src="close.jpeg";
+}
+else{
+  sideNav.style.right="-250px"; 
+  menu.src="nav.jpeg";
+}
+
+}
+</script>
+ 
+
+</body>
+</html>
